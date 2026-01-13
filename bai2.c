@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Lã Hải Đăng]
+ * MSSV:      [PS47692]
+ * Lớp:       [CS21301]
  *****************************************************************************/
 
  // BÀI 2: XÂY DỰNG CHƯƠNG TRÌNH TÍNH CHU VI DIỆN TÍCH HCN 
@@ -11,14 +11,13 @@
 #include <stdio.h>
 
 int main(){
-    // Khai báo biến
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán
-
-    // Hiển thị kết quả
-
+    float dai, rong;
+    printf("Nhap chieu dai : ");
+    scanf("%f", &dai);
+    printf("Nhap chieu rong : ");
+    scanf("%f", &rong);
+    printf("Chu vi HCN la: %.2f\n", (dai + rong) * 2);
+    printf("Dien tich HCN la: %.2f\n", dai * rong); 
+    return 0;
 
 }
